@@ -1,0 +1,47 @@
+%s/ld/lo/g  全局替换
+
+split vsplit 分屏
+ctrl+w vim不同分屏之间的跳转
+
+terminal多标签切换 alt+1 alt+2 alt+3.... 有几个标签从左到右就是几
+
+vim多标签操作:
+:tabnew 打开新的标签
+:tabc 关闭当前标签 
+:tabp/gt 查看前一个标签 
+:tabn/gT 查看后一个标签
+:tabo 关闭所有其它标签
+:tabe <file> 打开一个标签显示指定文件
+:tabfirst/:tabr 移动到第一个标签
+:tablast 移动到最后一个标签
+:tabdo <command> 在多个标签中执行命令
+
+:help tab-page-intro 查看帮助页
+
+vim 默认最多打开10个标签 可以通过setpagemax=来设置
+
+:shell 可以在不关闭vi的情况下切换到shell 
+:exit 从shell切换到vi 
+
+
+#添加多行注释
+#操作多列
+ctrl+v
+选取要删除的区域
+d 删除
+
+ctrl+v
+shift+i
+esc 按两次
+
+za 打开折叠
+zR 打开所有折叠
+zM 关闭所有折叠
+
+tab snippet 触发键
+
+分屏工具 tmux
+
+1,$s/.$//
+1,$表示全文，s表示替换 /.$// 正则表达式 把最后一个字符替换为空
+
